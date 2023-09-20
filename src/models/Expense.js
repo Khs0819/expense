@@ -14,6 +14,7 @@ class Expense {
         expense.date = obj.date;
         expense.value = obj.value;
         expense.desc = obj.desc;
+        expense.id = key;
         data.push(expense);
       }
       return data;
